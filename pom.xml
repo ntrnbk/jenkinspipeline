@@ -36,6 +36,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
 <distributionManagement>
 	<repository>
 		<id>deploymentRepo</id>
@@ -49,7 +50,7 @@
 		<url>http://104.196.147.99:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>
 </distributionManagement>
-		<build>
+	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
